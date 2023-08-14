@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Profile</title>
+</head>
+<body>
+    {% for usr in user %}
+    <h1>User Profile</h1>
+    <p>Name: {{ usr.name }}</p>
+    <p>Comment: {{ usr.comment }}</p>
+    <p>Lastname: {{ usr.lastname }}</p>
+    <p>Date: {{ usr.date }}</p>
+    <p>ID: {{ usr.id }}</p>
+    {% endfor }
+</body>
+</html>
